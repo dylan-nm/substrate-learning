@@ -18,6 +18,7 @@ fn main() {
  */
 fn bubble_sort(arr: &mut [i32]) {
     let len = arr.len();
+    // 数组为空或者只有一个数字直接返回
     if len < 2 {
         return;
     }
@@ -34,6 +35,7 @@ fn bubble_sort(arr: &mut [i32]) {
  */
 fn bubble_sort_generic<T: PartialOrd>(arr: &mut [T]) {
     let len = arr.len();
+    // 数组为空或者只有一个成员直接返回
     if len < 2 {
         return;
     }
