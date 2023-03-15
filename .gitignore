@@ -9,3 +9,4 @@ Cargo.lock
 **/*.rs.bk
 
 **/*/target/
+/.idea/
